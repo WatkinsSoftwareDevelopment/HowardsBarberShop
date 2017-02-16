@@ -1,0 +1,21 @@
+.logo {
+  width: 110px;
+  height: 160px; }
+
+.navbar-default, .navbar-collapse {
+  border: none !important; }
+
+.navbar {
+  background-image: url("../../src/images/wood.jpg");
+  background-size: cover;
+  height: 100px; }
+
+.navbar-nav > li > a {
+  color: white !important;
+  text-shadow: 1px 1px black !important;
+  padding-top: 35px !important;
+  font-family: "Lobster Two", cursive !important;
+  font-size: 30px;
+  padding-left: 15px !important; }
+
+/*# sourceMappingURL=style.css.map */

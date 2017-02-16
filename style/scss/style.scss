@@ -1,6 +1,9 @@
+$font: 'Lobster Two', cursive;
+$font-color: white;
+
 .logo {
-    width: 100px;
-    height: 140px;
+    width: 110px;
+    height: 160px;
 }
 
 .navbar-default, .navbar-collapse{
@@ -14,8 +17,10 @@
 }
 
 .navbar-nav>li>a{
-    color: white !important;
+    color: $font-color !important;
+    text-shadow: 1px 1px black !important;
     padding-top: 35px !important;
-    font-family: 'Lobster Two', cursive !important;
+    font-family: $font !important;
     font-size: 30px;
+    padding-left: 15px !important;
 }
