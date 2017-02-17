@@ -11,10 +11,26 @@ a,p,h1,h2,h3,h4, li {
     font-family: $font !important;
 }
 
+
+//***Logo***
 .logo {
     width: 110px;
     height: 160px;
     box-shadow: 1px 1px .5px gray;
+}
+
+.indexLogo{
+    height: 700px;
+    width: 500px;
+    margin-left: -70px;
+    margin-right: 9%;
+}
+
+.indexPic{
+    height: 500px;
+    width: 600px;
+    box-shadow: 5px 5px 2px gray;
+    border-radius: 5px;
 }
 
 //***Header***
