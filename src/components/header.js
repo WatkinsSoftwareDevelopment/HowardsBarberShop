@@ -4,7 +4,7 @@ export default class Header extends Component {
   render() {
     return (
       <div>
-          <nav className="navbar navbar-default wood">
+          <nav className="navbar navbar-default">
             <div className="container-fluid">
                 <div className="navbar-header">
                 <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -18,12 +18,12 @@ export default class Header extends Component {
                 </a>
                 </div>
                 <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul className="nav navbar-nav navbar-right">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our Services</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
+                    <ul className="nav navbar-nav navbar-right headerText">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>

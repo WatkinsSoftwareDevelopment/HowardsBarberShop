@@ -1,6 +1,15 @@
+body, html {
+  background-color: black !important;
+  height: 100vh; }
+
+a, p, h1, h2, h3, h4, li {
+  color: white !important;
+  font-family: "Lobster Two", cursive !important; }
+
 .logo {
   width: 110px;
-  height: 160px; }
+  height: 160px;
+  box-shadow: 1px 1px .5px gray; }
 
 .navbar-default, .navbar-collapse {
   border: none !important; }
@@ -10,12 +19,23 @@
   background-size: cover;
   height: 100px; }
 
-.navbar-nav > li > a {
-  color: white !important;
+.headerText {
   text-shadow: 1px 1px black !important;
-  padding-top: 35px !important;
-  font-family: "Lobster Two", cursive !important;
+  padding-top: 30px !important;
   font-size: 30px;
   padding-left: 15px !important; }
+
+.footerText {
+  text-shadow: 1px 1px black !important;
+  font-size: 15px; }
+
+.navbar-fixed-bottom {
+  height: 70px !important; }
+
+.icon {
+  font-size: 30px;
+  bottom: 18px;
+  right: 10px;
+  margin-left: 10px; }
 
 /*# sourceMappingURL=style.css.map */
