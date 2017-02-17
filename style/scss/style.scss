@@ -17,6 +17,7 @@ a,p,h1,h2,h3,h4, li {
     box-shadow: 1px 1px .5px gray;
 }
 
+//***Header***
 .navbar-default, .navbar-collapse{
     border: none !important;
 }
@@ -34,6 +35,8 @@ a,p,h1,h2,h3,h4, li {
     padding-left: 15px !important;
 }
 
+
+//***Footer***
 .footerText{
     text-shadow: 1px 1px black !important;
     font-size: 15px;
@@ -41,6 +44,10 @@ a,p,h1,h2,h3,h4, li {
 
 .navbar-fixed-bottom{
     height: 70px !important;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
 }
 
 .icon{
